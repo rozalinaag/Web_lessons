@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Лабораторная 1</title>
+</head>
+<body bgcolor="#C7F0BF" text="maroon">
+    <div>
+        <h1 align="center">ВАРИАНТ 4</h1>
+        <h2 align="center">Лабораторная 1</h2>
+        <h3 align="center">Агишева Р.М.</h3>
+    </div>
+    
+    <div class="menu" style="border:4px double black; margin: 10px">
+        <h2>Меню:</h2>
+        <ul>
+            <li><a href = "#num1">Задание 1</a></li>
+            <li><a href = "#num2">Задание 2</a></li>
+            <li><a href = "#num3">Задание 3</a></li>
+            <li><a href = "#num4">Задание 4</a></li>
+            <li><a href = "#num5">Задание 5</a></li>
+            <li><a href = "#num6">Задание 6</a></li>
+        </ul>        
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 1</h2>
+        <p><a name="num1"></a> <strong> Создать HTML-документ с различными уровнями форматирования текста 
+            (все тэги физического и логического форматирования текста). <br>
+            Раздел BODY должен содержать следующие параметры: BACKGROUND, BGCOLOR, TEXT.
+            Каждый уровень форматирования должен быть написан в отдельной строке.  <br>
+            Тэг  FONT  должен включать все параметры. </strong></p> 
+
+        <hr align="left" size="2" width="100%" color="#ff0000" noshade>
+
+        <p style="background-color: aqua;">Цвет фона для Body установлен с помощью BACKGROUND</p>
+        <p><font size="5" color="red" face="Arial">П</font>ервая буква этого предложения 
+            написана шрифтом Arial, выделена красным цветом и увеличена в размерах.</p>
+        <p><font size="5.5" color="green" face="Arial">В данном предложении тег font включает все параметры.</font></p>
+
+        <b>текст жирный</b> <br>
+        <i>текст наклонный</i> <br>
+        <u>текст подчеркнутый</u> <br>
+        
+        <p>
+        <abbr title="abbr">Teg abbr</abbr>
+        </p>
+
+        <address title="adress"> Adsress - Указывает автора документа и его адрес. Обычно отображается курсивом. </address>
+        <br>
+        <b> teg b - этот текст будет полужирным</b> 
+        <br>
+        <big title="Ваше описание">этот текст будет крупным</big> 
+
+        <blockquote title="подсказка">Данный текст будет являться цитатой,
+            имея отступы с обеих сторон документа и остального текста</blockquote>
+        
+            <br>
+        <center>этот текст будет выровнен по центру</center> 
+
+        <cite title="Ваше описание">Лед тронулся! господа присяжные заседатели!</cite>
+
+        <code title="Ваше описание">Некий программный код</code>
+
+        <dl>
+            <dt>Опрределение 
+               <dd title="подсказка">Описание определения
+        </dl> 
+        
+        <del title="Ваше описание">Старая цена 1000р.</del> - Новая 999 р.!!!
+        <br>
+        <dfn title="Ваше описание">Электроток - это направленное упорядоченное движение заряженных частиц</dfn>
+
+        <dl>
+            <dt title="подсказка">Опрределение 
+               <dd>Описание определения
+        </dl> 
+        
+
+
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 2</h2>
+        <p><a name="num2"></a> <strong> Cоздать HTML-документ с заголовками 1-6 уровня, <br>
+            все заголовки должны быть отделены горизонтальными линиями с различными параметрами </strong></p> 
+
+            <h1>Заголовок 1 уровня</h1>
+            <hr align="left" size="5" width="100%" color="#ff0000" noshade>
+            <h2>Заголовок 2 уровня</h2>
+            <hr align="left" size="3" width="200" color="#FC894C" noshade>
+            <h3>Заголовок 3 уровня</h3>
+            <hr align="left" size="2" width="300" color="#F2F0C4" noshade>
+            <h4>Заголовок 4 уровня</h4>
+            <hr align="left" size="1" width="400" color="#4CBCFC" noshade>
+            <h5>Заголовок 5 уровня</h5>
+            <hr align="left" size="3" width="500" color="#FC894C" noshade>
+            <h6>Заголовок 6 уровня</h6>
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 3</h2>
+        <p><a name="num3"></a> <strong>Oрганизовать HTML-документ с ссылками на другие ресурсы. <br>
+            Документ должен включать в себя относительную ссылку, абсолютную ссылку, внутреннюю ссылку, ссылку на e-mail. </strong></p> 
+
+            <ul>
+                <li><a href = "#num1">1 link</a></li>
+                <li><a href="http://htmlbook.ru/html/font" >2 link</a></li>
+                <li><a href="mailto:e-mail@.ru">3 link</a></li>
+                <li><a href="#num6" title="Num6">4 link</a></li>
+            </ul>  
+
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 4</h2>
+        <p><a name="num4"></a> <strong>Oрганизовать HTML-документ с нумерованным списком, в качестве элементов списка выступают основные цвета спектра.  <br>
+            Документ должен маркеры в виде маленьких римских цифр, строчных латинских букв (отсчет с 14 позиции). </strong></p> 
+
+            <ol type=I >
+                <li>RED</li>
+                <li>BLUE</li>
+                <li>GREEN</li>
+            </ol>
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 5</h2>
+        <p><a name="num5"></a> <strong>Oрганизовать HTML-документ с встроенными изображениями. <br> Выравнивание рисунков произвести по следующим параметрам:  <br>
+            TOP, RIGHT, BASELINE. Каждое выравнивание должно быть подписано соответствующим текстом. Изображение должно быть без рамок. </strong></p> 
+
+            <img src="gir2.jpg" alt="TOP" title="top" align="TOP" width="100" height="100" hspace="10" vspace="10" border="0" bordercolor="#ffffff">
+            <img src="gir2.jpg" alt="RIGHT" title="right" align="RIGHT" width="100" height="100" hspace="10" vspace="10" border="0" bordercolor="#ffffff">
+            <img src="gir2.jpg" alt="BASELINE" title="baseline" align="BASELINE" width="100" height="100" hspace="10" vspace="10" border="0" bordercolor="#ffffff">
+    </div>
+
+    <div style="border:4px double black; margin: 10px">
+        <h2>Задание 6</h2>
+        <p><a name="num6"></a> <strong>Oрганизовать таблицу с группированными столбцами, во всех ячейках разное выравнивание.  <br>
+            Таблица должна иметь рамки и сетку, выглядеть приподнятой над страницей. </strong></p> 
+
+            <table style ="border: 10px outset #ccc" align="center" frame="border" rules="all">
+                <tr>
+                <th align="right">Жираф</th>
+                <th align="center">Жираф африканский</th>
+                </tr>
+                <tr>
+                <td align="right">пятно</td>
+                <td align="left">два пятна</td>
+                </tr>
+            </table>
+            <br>
+    </div>
+
+</body>
+</html>
