@@ -1,0 +1,83 @@
+.rectangle {
+    width: 300px;
+    height: 130px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.triangle1 {
+    list-style: none;
+    font-size: 20px;
+    }
+
+.corner1 {
+    border: 6px solid transparent;
+    border-right: 10px solid green;
+    float: left;
+    }
+.triangle2 {
+    list-style: none;
+    font-size: 1em;
+ 
+    }
+.corner2 {
+    border: 6px solid transparent;
+    border-left: 8px solid green;
+    float: left;
+}
+
+.menu{
+    width: 220px;
+    border: 1px solid rgb(129, 128, 128, .5);
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-left: 300px;
+
+}
+.Calendar{
+    width: 220px;
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid rgba(65, 65, 65, 0.5);
+    border-radius: 5px;
+    box-shadow: 1px 0 10px 1px rgba(0,0,0,0.5);
+}
+.arhive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    height: 30px;
+    background-color: rgb(2, 107, 72);
+}
+.year{
+    padding-top: 4px;
+    text-align: center;
+    height: 30px;
+    display: block;
+    color: white;
+    background-color: black;
+}
+table{
+    width: 220px;
+    padding: 5px;
+    background-color: rgb(237, 238, 238);
+    border-radius: 0 0 5px 5px;
+}
+table th:focus{ 
+   color:rgb(111, 112, 112);
+}
+table th:hover{
+    color:rgb(111, 112, 112);
+    background-color: rgb(2, 107, 72);
+}
+
+
+.corner2_2 {
+    border: 6px solid transparent;
+    border-left: 8px solid green;
+    float: right;
+}
